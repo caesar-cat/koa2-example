@@ -1,0 +1,12 @@
+[2017-11-08 11:28:48.351] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?id=1
+request client ip:  ::1
+request query:  {"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"username":"黄强","age":25}}
+*************** response log end ***************
+

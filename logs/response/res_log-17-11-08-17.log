@@ -1,0 +1,75 @@
+[2017-11-08 17:12:38.343] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"username":"黄强","age":25}}
+*************** response log end ***************
+
+[2017-11-08 17:12:38.369] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"黄强2","age":31}
+response time: 1
+response status: 200
+response body: 
+{"code":10001,"msg":"no data"}
+*************** response log end ***************
+
+[2017-11-08 17:13:32.886] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"username":"黄强","age":25}}
+*************** response log end ***************
+
+[2017-11-08 17:13:32.912] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"黄强2","age":31}
+response time: 1
+response status: 200
+response body: 
+{"code":10001,"msg":"no data"}
+*************** response log end ***************
+
+[2017-11-08 17:16:13.470] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"username":"黄强","age":25}}
+*************** response log end ***************
+
+[2017-11-08 17:16:13.496] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"黄强2","age":31}
+response time: 0
+response status: 200
+response body: 
+{"code":10001,"msg":"no data"}
+*************** response log end ***************
+

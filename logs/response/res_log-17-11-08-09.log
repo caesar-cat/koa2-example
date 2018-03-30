@@ -1,0 +1,96 @@
+[2017-11-08 09:35:06.363] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/getUser
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-08 09:35:25.550] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"username":"黄强","age":25}
+*************** response log end ***************
+
+[2017-11-08 09:37:42.820] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-08 09:37:43.539] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-08 09:38:09.388] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-08 09:38:10.056] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-08 09:47:34.819] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"username":"黄强","age":25}
+*************** response log end ***************
+
+[2017-11-08 09:47:35.909] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"username":"黄强","age":25}
+*************** response log end ***************
+
